@@ -1,7 +1,5 @@
 import Navbar from './componets/Navbar'
 
-
-
 function App() {
   
 
@@ -12,5 +10,4 @@ function App() {
     </>
   )
 }
-
 export default App
