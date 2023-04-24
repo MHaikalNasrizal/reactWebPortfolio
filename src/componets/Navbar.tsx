@@ -1,10 +1,11 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js"
+import "../../scss/custom.scss"
 
 export default function Navbar() {
   return (
     <>
-      <div className="navbar bg-body-tertiary">
+      <div className="navbar bg-body-tertiary" >
         <div className="container-fluid">
           <div className="navbar-brand">hello</div>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
