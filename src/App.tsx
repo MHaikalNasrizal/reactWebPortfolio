@@ -1,4 +1,5 @@
 import Navbar from './componets/Navbar'
+import Home from './componets/Home'
 
 function App() {
   
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <Home />
       
     </>
   )
